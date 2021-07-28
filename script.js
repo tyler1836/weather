@@ -41,9 +41,9 @@ function searchWeather() {
                     currentEl.appendChild(visibility)
                     console.log(weatherData)
 
-                    var temp1 = document.createElement("h6")
+                    var temp1 = document.createElement("h5")
                     temp1.innerHTML = weatherData.list[10].main.temp + " Degrees Farenheit"
-                    var visibility1 = document.createElement("h6")
+                    var visibility1 = document.createElement("h5")
                     visibility1.innerHTML = weatherData.list[10].weather[0].description
                     var time1 = document.createElement("h5")
                     time1.innerHTML = weatherData.list[10].dt_txt
@@ -51,9 +51,9 @@ function searchWeather() {
                     tomorrowEl.appendChild(visibility1)
                     tomorrowEl.prepend(time1)
 
-                    var temp2 = document.createElement("h6")
+                    var temp2 = document.createElement("h5")
                     temp2.innerHTML = weatherData.list[18].main.temp + " Degrees Farenheit"
-                    var visibility2 = document.createElement("h6")
+                    var visibility2 = document.createElement("h5")
                     visibility2.innerHTML = weatherData.list[18].weather[0].description
                     var time2 = document.createElement("h5")
                     time2.innerHTML = weatherData.list[18].dt_txt
@@ -61,9 +61,9 @@ function searchWeather() {
                     twoDays.appendChild(visibility2)
                     twoDays.prepend(time2)
 
-                    var temp3 = document.createElement("h6")
+                    var temp3 = document.createElement("h5")
                     temp3.innerHTML = weatherData.list[26].main.temp + " Degrees Farenheit"
-                    var visibility3 = document.createElement("h6")
+                    var visibility3 = document.createElement("h5")
                     visibility3.innerHTML = weatherData.list[26].weather[0].description
                     var time3 = document.createElement("h5")
                     time3.innerHTML = weatherData.list[26].dt_txt
@@ -71,9 +71,9 @@ function searchWeather() {
                     threeDays.appendChild(visibility3)
                     threeDays.prepend(time3)
 
-                    var temp4 = document.createElement("h6")
+                    var temp4 = document.createElement("h5")
                     temp4.innerHTML = weatherData.list[34].main.temp + " Degrees Farenheit"
-                    var visibility4 = document.createElement("h6")
+                    var visibility4 = document.createElement("h5")
                     visibility4.innerHTML = weatherData.list[34].weather[0].description
                     var time4 = document.createElement("h5")
                     time4.innerHTML = weatherData.list[34].dt_txt
@@ -81,9 +81,9 @@ function searchWeather() {
                     fourDays.appendChild(visibility4)
                     fourDays.prepend(time4)
 
-                    var temp5 = document.createElement("h6")
+                    var temp5 = document.createElement("h5")
                     temp5.innerHTML = weatherData.list[39].main.temp + " Degrees Farenheit"
-                    var visibility5 = document.createElement("h6")
+                    var visibility5 = document.createElement("h5")
                     visibility5.innerHTML = weatherData.list[39].weather[0].description
                     var time5 = document.createElement("h5")
                     time5.innerHTML = weatherData.list[39].dt_txt
