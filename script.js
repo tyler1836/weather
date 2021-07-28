@@ -17,7 +17,7 @@ function searchWeather() {
     localStorage.setItem("history", JSON.stringify(searchHistory))
     console.log(searchHistory);
 
-    fetch('http://api.positionstack.com/v1/forward?access_key=8b6705bd3db1ed3c15005b1f93926e8e&query=' + searchInput)
+    fetch('https://api.positionstack.com/v1/forward?access_key=8b6705bd3db1ed3c15005b1f93926e8e&query=' + searchInput)
         .then(function (response) {
             return response.json();
         })
