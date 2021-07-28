@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: seashell;
+    
+}
+#title{
+
+    background-color: rgba(0, 0, 255, 0.3);
+    color: cornsilk;
+    text-shadow: 0 0 5px black;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#current{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    text-shadow: 1px 1px 1px rgb(83, 71, 71);
+    border: solid 2px black;
+    box-shadow: 2px 2px 2px black;
+}
+
+#search h2{
+    color: cornflowerblue;
+    text-decoration: underline;
+    font-size: 2rem;
+    
+    
+}
+#input{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    text-align: inherit;
+    padding: 5px;
+}
+#current h2{
+    color: cornsilk;
+}
+#searched{
+    font-weight: bolder;
+}
+#searched h4{
+    font-weight: lighter;
+    text-decoration: underline; 
+    color: cornflowerblue; 
+    text-shadow: 1px 1px 1px lightgray;
+}
+#btn{
+    box-shadow:1px 1px 2px lightgray;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-size: 1.3rem;
+    color: cornsilk;
+    
+}
+#btn:hover{
+    background-color: rgb(106, 174, 238);
+    text-shadow: 2px 2px 2px rgb(83, 71, 71);
+}
+#today{
+    display: flex;
+}
+#forecast{
+    display: flex;
+    flex-direction: flex-row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+}
+[class*=days]{
+    border: black solid 1px;
+    padding: 25px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    text-shadow: 1px 1px 1px rgb(83, 71, 71);
+    margin: 0 10px;
+    box-shadow: 1px 1px 1px black;
+}
